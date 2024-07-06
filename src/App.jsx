@@ -4,9 +4,9 @@ import { initializeApp } from "firebase/app";
 import { addDoc, collection, getDocs, getFirestore, doc, deleteDoc } from "firebase/firestore";
 
 const firebaseApp = initializeApp({
-  apiKey: "AIzaSyAljyyf1MrS6MJu2ugRYFiqXTLpBhfFSqY",
-  authDomain: "crudfirebase-a66f5.firebaseapp.com",
-  projectId: "crudfirebase-a66f5",
+  apiKey: ,
+  authDomain: ,
+  projectId:,
 });
 const db = getFirestore(firebaseApp);
 
